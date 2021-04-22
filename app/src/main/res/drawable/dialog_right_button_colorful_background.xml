@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <layer-list>
+            <item
+                android:top="-2dp"
+                android:left="-2dp">
+                <shape
+                    android:shape="rectangle">
+
+                    <solid
+                        android:color="@color/colorDialogButtonPressed" />
+
+                    <stroke
+                        android:width="@dimen/_1sdp"
+                        android:color="@color/colorDialogBorder" />
+
+                    <corners
+                        android:bottomLeftRadius="0dp"
+                        android:bottomRightRadius="@dimen/_10sdp"
+                        android:topLeftRadius="0dp"
+                        android:topRightRadius="0dp" />
+
+                    <padding
+                        android:bottom="0dp"
+                        android:left="0dp"
+                        android:right="0dp"
+                        android:top="0dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item
+                android:top="-2dp"
+                android:left="-2dp">
+                <shape
+                    android:shape="rectangle">
+
+                    <solid
+                        android:color="@color/colorDialogButtonUnPressed" />
+
+                    <stroke
+                        android:width="@dimen/_1sdp"
+                        android:color="@color/colorDialogBorder" />
+
+                    <corners
+                        android:bottomLeftRadius="0dp"
+                        android:bottomRightRadius="@dimen/_10sdp"
+                        android:topLeftRadius="0dp"
+                        android:topRightRadius="0dp" />
+
+                    <padding
+                        android:bottom="0dp"
+                        android:left="0dp"
+                        android:right="0dp"
+                        android:top="0dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
